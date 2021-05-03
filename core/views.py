@@ -25,4 +25,4 @@ def load_scraps(request):
     context = {
         'scraps': scraps
     }
-    return render(request, 'index.html', context )
+    return render(request, 'index.html', context)
